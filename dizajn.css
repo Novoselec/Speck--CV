@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');	
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+	   *{
+    		margin: 0;
+    		padding: 0;
+    		box-sizing: border-box;
+    		list-style: none;
+		}	
+
+		.zivotopis{
+    		width: 820px;
+    		background: #fff;
+    		margin: 25px auto;
+    		display: flex;
+		}
+
+		.podaci{
+    		background: #545455;
+    		width: 250px;
+    		padding: 0 20px;
+			}
+
+		.opis{
+    		width: calc(100% - 250px);
+		}
+		.dolje{
+			padding-bottom: 30px;
+		}
+		.naslovi{
+			font-size: 22px;
+			font-weight: 600;
+			text-transform: uppercase;
+			padding-bottom: 10px;
+			letter-spacing: 3px;
+			color: rgb(110, 178, 241);
+			position: relative;
+			text-align: right;
+			margin-bottom: 20px;
+            font-family: 'Oswald', sans-serif;
+		}
+		.naslovi::before{
+			content: "";
+			position: absolute;
+			top: 35px;
+			width: 70px;
+			height: 3px;
+			right: 0;
+			background: rgb(110, 178, 241);
+		}
+
+		.text{
+			color: rgb(110, 178, 241); 
+			font-family: 'Bitter', serif;
+			font-size: 14px;	
+		}
+		.ikona{
+			font-size: 20px;
+			color: rgb(110, 178, 241);
+		}
+		.kontakt .okolo_ikona{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			margin-bottom: 15px;
+
+
+		}
+
+		.kontakt .okolo_ikona .ikona{
+			width: 50px;
+			height: 50px;
+			background: rgb(255, 255, 255);
+			border-radius: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 15px;
+
+		}
+		.kontakt .okolo_ikona text{
+			width: calc(100%-50px);
+			word-break: break-word;
+			color: #fff;
+		}
+
+		.vjestine ul,
+		.Hobiji ul{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+		}
+
+		.vjestine .okolo_ikona,
+		.Hobiji .okolo_ikona{
+			width: 100px;
+			height: 100px;
+			margin-bottom: 15px;
+			border-radius: 15px;			
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			
+		}
+
+		.vjestine .okolo_ikona .text,
+		.Hobiji .okolo_ikona .text{
+			margin-top: 8px;
+		}
+
+		.Hobiji .okolo_ikona{
+			border: 2px solid rgb(110, 178, 241); 
+		}
+
+		.Hobiji .okolo_ikona .ikona,
+		.Hobiji .okolo_ikona .text{
+			color: rgb(218, 228, 238); ;
+		}
+
+		.Hobiji .okolo_ikona:hover{
+			background: rgb(218, 228, 238);
+		}
+
+		.Hobiji .okolo_ikona:hover .ikona,
+		.Hobiji .okolo_ikona:hover .text{
+			color: #224381;
+		}
+
+		.header{
+			padding: 19px 30px;
+			color: #fff;
+			height: 247px;
+
+			font-family: 'Hubballi', cursive;
+			font-family: 'Ubuntu Mono', monospace;
+
+		}
+		
+		.header .ime{
+			font-size: 48px;
+			font-weight: 700;
+			color: rgb(110, 178, 241);
+		}
+
+		.header .fakultet{
+				font-weight: 300;
+				font-size: 25px;
+		}
+
+		.header .o_meni{
+			margin-top: 15px;
+			line-height: 20px;
+		}
+
+
+        .desno .edukacija{
+            margin-top: 30px;
+        }
+        .desno .popis{
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .desno .popis .datum{
+            width: 137px;
+            color: rgb(110, 178, 241);
+            font-family: 'Old Standard TT', serif;
+        }
+
+        .desno .popis .informacije{
+            width: calc(100% - 170px);
+            padding-left: 25px;
+            position: relative;
+        }
+        .desno .popis .info_title{
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: rgb(110, 178, 241);
+        }
+
+        .desno .popis .info_com{
+            font-weight: 300;
+            font-size: 18px;
+            margin-top: 3px;
+        }
+
+        .desno .popis .info_cont{
+        margin-top: 15px;
+        }
+
+        .desno .popis .informacije:before{
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            background: rgb(110, 178, 241);
+            border-radius: 50%;
+        }
+
+        .desno .popis .informacije:after{
+            content: "";
+            position: absolute;
+            top: 10px;
+            left: 4px;
+            width: 2px;
+            height: 90%;
+            background: rgb(110, 178, 241);
+            
+        }
+
+        .desno{
+            padding: 30px;
+            color: rgb(110, 178, 241);
+        }
+
+
+
+
+
+
+
